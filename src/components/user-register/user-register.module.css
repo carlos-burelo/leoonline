@@ -1,0 +1,17 @@
+.form {
+    margin: auto;
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+}
+
+.info {
+    display: flex;
+    gap: .25em;
+}
+
+.labels {
+    display: grid;
+    align-content: flex-start;
+    gap: .25em;
+}

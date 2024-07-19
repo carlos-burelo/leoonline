@@ -1,0 +1,25 @@
+.side {
+    width: 200px;
+    height: 92vh;
+    display: grid;
+    align-content: flex-start;
+    gap: .25em;
+    background-color: var(--sidebar-color);
+    padding: .5em;
+    position: sticky;
+    top: 8vh;
+}
+
+.side img {
+    height: 150px;
+    margin: auto;
+}
+
+.link {
+    padding: .75em 1.5em;
+}
+
+.active {
+    background-color: var(--sidebar-active-color);
+    border-radius: 5em;
+}

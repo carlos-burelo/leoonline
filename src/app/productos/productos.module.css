@@ -1,0 +1,10 @@
+.container {
+    width: 100%;
+    display: grid;
+    justify-content: flex-start;
+    grid-template-columns: 200px 1fr;
+}
+
+.body {
+    width: 100%;
+}

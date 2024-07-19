@@ -1,0 +1,38 @@
+.dialog {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    padding: 1em;
+    min-width: 800px;
+    background-color: white;
+    border-radius: 1em;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.row>div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    justify-content: space-between;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    border-radius: 5px;
+}

@@ -1,0 +1,27 @@
+.hero {
+    background-image: url("/hero.webp");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 92vh;
+    width: 100%;
+}
+
+.hero h1,
+.hero h2 {
+    text-align: center;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 8em;
+    color: var(--text-color);
+}
+
+.hero h2 {
+    font-size: 5em;
+    color: var(--text-color);
+}
